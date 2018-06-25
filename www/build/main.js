@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 113:
+/***/ 114:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,16 +13,16 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 113;
+webpackEmptyAsyncContext.id = 114;
 
 /***/ }),
 
-/***/ 155:
+/***/ 156:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/dashboard/dashboard.module": [
-		156
+		157
 	]
 };
 function webpackAsyncContext(req) {
@@ -36,12 +36,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 155;
+webpackAsyncContext.id = 156;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 156:
+/***/ 157:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49,7 +49,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardPageModule", function() { return DashboardPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard__ = __webpack_require__(158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -79,14 +79,14 @@ var DashboardPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 157:
+/***/ 158:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(78);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -119,139 +119,24 @@ var DashboardPage = /** @class */ (function () {
     };
     DashboardPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-dashboard',template:/*ion-inline-start:"/Users/neosoft/Desktop/ionicApp/demoApp/src/pages/dashboard/dashboard.html"*/'<!--\n  Generated template for the DashboardPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>dashboard</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-row *ngIf="users != undefined">\n     <ion-col>Hi, {{users.name}} </ion-col>\n    <ion-col>\n      <img src="{{users.picture.data.url}}" width="100" alt="{{users.name}}" />\n    </ion-col>\n  </ion-row>\n  <ion-row text-center *ngIf="users != undefined">\n    <ion-col>\n      <button ion-button icon-right (click)="logout()" round outline>\n            Logout\n        <ion-icon name="log-out"></ion-icon>\n      </button>\n    </ion-col>\n  </ion-row>\n</ion-content>\n'/*ion-inline-end:"/Users/neosoft/Desktop/ionicApp/demoApp/src/pages/dashboard/dashboard.html"*/,
+            selector: 'page-dashboard',template:/*ion-inline-start:"/Users/neosoft/Desktop/ionicApp/ionic-structure/src/pages/dashboard/dashboard.html"*/'<!--\n  Generated template for the DashboardPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>dashboard</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-row *ngIf="users != undefined">\n     <ion-col>Hi, {{users.name}} </ion-col>\n    <ion-col>\n      <img src="{{users.picture.data.url}}" width="100" alt="{{users.name}}" />\n    </ion-col>\n  </ion-row>\n  <ion-row text-center *ngIf="users != undefined">\n    <ion-col>\n      <button ion-button icon-right (click)="logout()" round outline>\n            Logout\n        <ion-icon name="log-out"></ion-icon>\n      </button>\n    </ion-col>\n  </ion-row>\n</ion-content>\n'/*ion-inline-end:"/Users/neosoft/Desktop/ionicApp/ionic-structure/src/pages/dashboard/dashboard.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], DashboardPage);
     return DashboardPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=dashboard.js.map
 
 /***/ }),
 
-/***/ 201:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_service_service__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_common_common__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dashboard_dashboard__ = __webpack_require__(157);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, fb, serviceProvider, commonProvide) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.fb = fb;
-        this.serviceProvider = serviceProvider;
-        this.commonProvide = commonProvide;
-        this.isLoggedIn = false;
-        this.users = [];
-        fb.getLoginStatus().then(function (res) {
-            console.log(res.status);
-            if (res.status === "connect") {
-                _this.isLoggedIn = true;
-            }
-            else {
-                _this.isLoggedIn = false;
-            }
-        })
-            .catch(function (e) { return console.log(e); });
-    }
-    LoginPage.prototype.login = function () {
-        var _this = this;
-        this.fb.login(['public_profile', 'user_friends', 'email'])
-            .then(function (res) {
-            if (res.status === "connected") {
-                _this.isLoggedIn = true;
-                _this.getUserDetail(res.authResponse.userID);
-            }
-            else {
-                _this.isLoggedIn = false;
-            }
-        })
-            .catch(function (e) { return console.log('Error logging into Facebook', e); });
-    };
-    LoginPage.prototype.getUserDetail = function (userid) {
-        var _this = this;
-        this.commonProvide.showLoader();
-        this.fb.api("/" + userid + "/?fields=id,email,name,picture,gender", ["public_profile"])
-            .then(function (res) {
-            console.log(res);
-            _this.users = res;
-            console.log('this.users ', _this.users);
-            _this.commonProvide.hideLoader();
-            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__dashboard_dashboard__["a" /* DashboardPage */], { data: _this.users });
-            // this.navCtrl.push(DashboardPage, { data: this.users });
-        })
-            .catch(function (e) {
-            console.log(e);
-        });
-    };
-    LoginPage.prototype.getProducts = function () {
-        var _this = this;
-        this.serviceProvider.getService('/products').subscribe(function (response) {
-            console.log("response ", response);
-        }, function (err) {
-            _this.commonProvide.showToast(err.message);
-        });
-    };
-    LoginPage.prototype.addProducts = function () {
-        var _this = this;
-        var data = {
-            "id": 15,
-            "name": "Product152",
-            "cost": 20,
-            "quantity": 2000,
-            "locationId": 1,
-            "familyId": 2
-        };
-        this.serviceProvider.postService('/products', data).subscribe(function (response) {
-            console.log("response ", response);
-        }, function (err) {
-            _this.commonProvide.showToast(err.message);
-        });
-    };
-    LoginPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"/Users/neosoft/Desktop/ionicApp/demoApp/src/pages/login/login.html"*/'<ion-header>\n  <!-- <ion-navbar>\n    <ion-title></ion-title>\n  </ion-navbar> -->\n</ion-header>\n\n<ion-content padding>\n  <p></p>\n<ion-row text-center class="row-height">\n    <ion-col>\n      <button ion-button icon-right (click)="login()" round outline>\n            Login with\n        <ion-icon name="logo-facebook"></ion-icon>\n      </button>\n    </ion-col>\n</ion-row>\n<p></p>\n  <!-- <div class="row">\n  <button ion-button icon-right (click)="addProducts()" round outline>\n        Subscribe\n  </button>\n</div> -->\n</ion-content>\n\n<!-- Uncomment this to use default center login form -->\n<!-- <ion-content class="login-content" padding>\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col width-67>\n    <img src="http://placehold.it/300x200"/>\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div class="login-box">\n\n    <form #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n\n            <ion-item>\n              <ion-input type="text" placeholder="Email" required></ion-input>\n            </ion-item>\n\n            <ion-item>\n              <ion-input type="password" placeholder="Password" required></ion-input>\n            </ion-item>\n\n          </ion-list>\n        </ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit">Login</button>\n          <button ion-button icon-right (click)="login()" class="submit-btn" full>Login with\n            <ion-icon name="logo-facebook"></ion-icon>\n          </button>\n        </ion-col>\n      </ion-row>\n\n    </form>\n  </div>\n</ion-content> -->\n'/*ion-inline-end:"/Users/neosoft/Desktop/ionicApp/demoApp/src/pages/login/login.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__providers_service_service__["a" /* ServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_service_service__["a" /* ServiceProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__providers_common_common__["a" /* CommonProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_common_common__["a" /* CommonProvider */]) === "function" && _d || Object])
-    ], LoginPage);
-    return LoginPage;
-    var _a, _b, _c, _d;
-}());
-
-//# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 203:
+/***/ 161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServiceProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__(80);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -300,15 +185,15 @@ var ServiceProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 162:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CommonProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_network__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_network__ = __webpack_require__(163);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -480,16 +365,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_network__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_network__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_dashboard_dashboard_module__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_facebook__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_service_service__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_common_common__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_dashboard_dashboard_module__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_facebook__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_service_service__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_common_common__ = __webpack_require__(162);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -558,9 +443,9 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_login_login__ = __webpack_require__(78);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -586,7 +471,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/neosoft/Desktop/ionicApp/demoApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/neosoft/Desktop/ionicApp/demoApp/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/neosoft/Desktop/ionicApp/ionic-structure/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/neosoft/Desktop/ionicApp/ionic-structure/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -594,6 +479,120 @@ var MyApp = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 78:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_service_service__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_common_common__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dashboard_dashboard__ = __webpack_require__(158);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var LoginPage = /** @class */ (function () {
+    function LoginPage(navCtrl, fb, serviceProvider, commonProvide) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.fb = fb;
+        this.serviceProvider = serviceProvider;
+        this.commonProvide = commonProvide;
+        this.isLoggedIn = false;
+        this.users = [];
+        fb.getLoginStatus().then(function (res) {
+            console.log(res.status);
+            if (res.status === "connect") {
+                _this.isLoggedIn = true;
+            }
+            else {
+                _this.isLoggedIn = false;
+            }
+        })
+            .catch(function (e) { return console.log(e); });
+    }
+    LoginPage.prototype.login = function () {
+        var _this = this;
+        this.fb.login(['public_profile', 'user_friends', 'email'])
+            .then(function (res) {
+            if (res.status === "connected") {
+                _this.isLoggedIn = true;
+                _this.getUserDetail(res.authResponse.userID);
+            }
+            else {
+                _this.isLoggedIn = false;
+            }
+        })
+            .catch(function (e) { return console.log('Error logging into Facebook', e); });
+    };
+    LoginPage.prototype.getUserDetail = function (userid) {
+        var _this = this;
+        this.commonProvide.showLoader();
+        this.fb.api("/" + userid + "/?fields=id,email,name,picture,gender", ["public_profile"])
+            .then(function (res) {
+            console.log(res);
+            _this.users = res;
+            console.log('this.users ', _this.users);
+            _this.commonProvide.hideLoader();
+            _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_5__dashboard_dashboard__["a" /* DashboardPage */], { data: _this.users });
+            // this.navCtrl.push(DashboardPage, { data: this.users });
+        })
+            .catch(function (e) {
+            console.log(e);
+        });
+    };
+    LoginPage.prototype.getProducts = function () {
+        var _this = this;
+        this.serviceProvider.getService('/products').subscribe(function (response) {
+            console.log("response ", response);
+        }, function (err) {
+            _this.commonProvide.showToast(err.message);
+        });
+    };
+    LoginPage.prototype.addProducts = function () {
+        var _this = this;
+        var data = {
+            "id": 15,
+            "name": "Product152",
+            "cost": 20,
+            "quantity": 2000,
+            "locationId": 1,
+            "familyId": 2
+        };
+        this.serviceProvider.postService('/products', data).subscribe(function (response) {
+            console.log("response ", response);
+        }, function (err) {
+            _this.commonProvide.showToast(err.message);
+        });
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"/Users/neosoft/Desktop/ionicApp/ionic-structure/src/pages/login/login.html"*/'<ion-header>\n  <!-- <ion-navbar>\n    <ion-title></ion-title>\n  </ion-navbar> -->\n</ion-header>\n\n<ion-content padding>\n  <p></p>\n<ion-row text-center class="row-height">\n    <ion-col>\n      <button ion-button icon-right (click)="login()" round outline>\n            Login with\n        <ion-icon name="logo-facebook"></ion-icon>\n      </button>\n    </ion-col>\n</ion-row>\n<p></p>\n  <!-- <div class="row">\n  <button ion-button icon-right (click)="addProducts()" round outline>\n        Subscribe\n  </button>\n</div> -->\n</ion-content>\n\n<!-- Uncomment this to use default center login form -->\n<!-- <ion-content class="login-content" padding>\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col width-67>\n    <img src="http://placehold.it/300x200"/>\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div class="login-box">\n\n    <form #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n\n            <ion-item>\n              <ion-input type="text" placeholder="Email" required></ion-input>\n            </ion-item>\n\n            <ion-item>\n              <ion-input type="password" placeholder="Password" required></ion-input>\n            </ion-item>\n\n          </ion-list>\n        </ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit">Login</button>\n          <button ion-button icon-right (click)="login()" class="submit-btn" full>Login with\n            <ion-icon name="logo-facebook"></ion-icon>\n          </button>\n        </ion-col>\n      </ion-row>\n\n    </form>\n  </div>\n</ion-content> -->\n'/*ion-inline-end:"/Users/neosoft/Desktop/ionicApp/ionic-structure/src/pages/login/login.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__providers_service_service__["a" /* ServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_service_service__["a" /* ServiceProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__providers_common_common__["a" /* CommonProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_common_common__["a" /* CommonProvider */]) === "function" && _d || Object])
+    ], LoginPage);
+    return LoginPage;
+    var _a, _b, _c, _d;
+}());
+
+//# sourceMappingURL=login.js.map
 
 /***/ })
 

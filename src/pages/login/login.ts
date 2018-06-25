@@ -85,6 +85,13 @@ export class LoginPage {
       });
   }
 
+// Call alert function.
+  // this.commonProvider.Alert.confirm('Sure you want to delete ').then((res) => {
+  //     //this.photos.splice(index, 1);        console.log('confirmed');
+  // }, err => {
+  //     console.log('user cancelled');
+  // });
+
 
 
 
